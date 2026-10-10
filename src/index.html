@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="BIKEFIX — ремонт и обслуживание велосипедов">
+  <title>BIKEFIX — ремонт велосипедов</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <div class="ambient ambient-three"></div>
+
+  <!-- ШАПКА -->
+  <header class="site-header">
+    <a class="logo" href="#home">BIKEFIX<span>.</span></a>
+
+    <button class="menu-toggle" aria-label="Открыть меню"
+      aria-expanded="false" aria-controls="main-nav">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="main-nav" id="main-nav">
+      <a class="nav-link active" href="#home">Главная</a>
+      <a class="nav-link" href="#services">Услуги</a>
+      <a class="nav-link" href="#prices">Цены</a>
+      <a class="nav-link" href="#reviews">Отзывы</a>
+      <a class="nav-link" href="#contacts">Контакты</a>
+      <a class="whatsapp-button"
+         href="https://wa.me/77001234567"
+         target="_blank" rel="noopener"
+         aria-label="Написать в WhatsApp">☏</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ГЛАВНЫЙ ЭКРАН -->
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow">
+          <span class="status-dot"></span>
+          ВЕЛОМАСТЕРСКАЯ РЯДОМ
+        </div>
+
+        <h1>Твой велосипед.<br><span>Наша забота.</span></h1>
+
+        <p class="hero-text">
+          Быстро ремонтируем, точно настраиваем и возвращаем
+          удовольствие от каждой поездки.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#booking">
+            Записаться на ремонт <span>↗</span>
+          </a>
+          <a class="button button-ghost" href="#services">
+            Наши услуги
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div><strong>5+</strong><span>лет опыта</span></div>
+          <div><strong>1 200</strong><span>велосипедов починено</span></div>
+          <div><strong>4.9 <span class="star">★</span></strong><span>оценка клиентов</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="visual-orbit orbit-one"></div>
+        <div class="visual-orbit orbit-two"></div>
+
+        <div class="image-frame hero-image">
+          <img src="https://cdn.insales-shop.ru/images/products/1/2689/1375259265/medium_ALPHA_Mustang.jpg"
+               alt="Спортивный велосипед в мастерской BIKEFIX">
+          <div class="image-placeholder">
+            <span>🚲</span>
+            <small>Добавь фото велосипеда</small>
+            <code>images/hero-bike.png</code>
+          </div>
+        </div>
+
+        <div class="floating-card floating-card-top">
+          <span class="floating-icon">✓</span>
+          <div>
+            <strong>Качественный ремонт</strong>
+            <small>С гарантией на работу</small>
+          </div>
+        </div>
+
+        <div class="floating-card floating-card-bottom">
+          <span class="pulse-icon"></span>
+          <div>
+            <strong>Есть свободные окна</strong>
+            <small>Запишись на удобное время</small>
+          </div>
+        </div>
+
+        <div class="hero-tag">RIDE<br><b>BETTER.</b></div>
+      </div>
+    </section>
+
+    <!-- ПРЕИМУЩЕСТВА -->
+    <section class="trust-strip">
+      <div>⚙ <span>Опытные механики</span></div>
+      <div>◷ <span>Честные сроки</span></div>
+      <div>✦ <span>Гарантия на работы</span></div>
+      <div>↗ <span>Запчасти под заказ</span></div>
+    </section>
+
+    <!-- УСЛУГИ -->
+    <section class="section" id="services">
+      <div class="section-heading">
+        <div>
+          <div class="eyebrow">ЧТО МЫ УМЕЕМ</div>
+          <h2>Услуги мастерской<span>.</span></h2>
+        </div>
+        <p>
+          От простой настройки до полного технического обслуживания —
+          всё, чтобы твой велосипед снова ехал идеально.
+        </p>
+      </div>
+
+      <div class="service-grid">
+        <article class="service-card">
+          <div class="card-top">
+            <span class="service-icon">⚙</span>
+            <span class="card-number">01</span>
+          </div>
+          <div class="service-image image-frame">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF-oLvwgqFT7wba-OPpT_Q0eUQBjBkfBsxVEMwZQgWKQ&s=10"
+                 alt="Механик настраивает велосипед">
+            <div class="image-placeholder">
+              <span>🔧</span><small>Фото настройки</small>
+            </div>
+          </div>
+          <h3>Настройка переключателей</h3>
+          <p>Точная работа передач, регулировка тросов и настройка тормозов.</p>
+          <a href="#booking" class="text-link">Записаться <span>↗</span></a>
+        </article>
+
+        <article class="service-card featured-card">
+          <div class="card-top">
+            <span class="service-icon">🛞</span>
+            <span class="card-number">02</span>
+          </div>
+          <div class="service-image image-frame">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNAhjZZkaABRR-r8awPMQIjxbEtrkTHY0S2gCPW_Y7vg&s=10"
+                 alt="Ремонт колеса и замена камеры велосипеда">
+            <div class="image-placeholder">
+              <span>🛞</span><small>Фото ремонта колеса</small>
+            </div>
+          </div>
+          <h3>Колёса и проколы</h3>
+          <p>Ремонт проколов, замена камер и покрышек, исправление восьмёрок.</p>
+          <a href="#booking" class="text-link">Записаться <span>↗</span></a>
+        </article>
+
+        <article class="service-card">
+          <div class="card-top">
+            <span class="service-icon">🧰</span>
+            <span class="card-number">03</span>
+          </div>
+          <div class="service-image image-frame">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKLwQY8Ay6-JEA09FV69aNWzrHiYITGNbnZMII5XHetw&s=10"
+                 alt="Полное техническое обслуживание велосипеда">
+            <div class="image-placeholder">
+              <span>🧰</span><small>Фото обслуживания</small>
+            </div>
+          </div>
+          <h3>Полное ТО</h3>
+          <p>Проверка узлов, чистка трансмиссии, смазка и комплексная диагностика.</p>
+          <a href="#booking" class="text-link">Записаться <span>↗</span></a>
+        </article>
+      </div>
+    </section>
+
+    <!-- ЦЕНЫ -->
+    <section class="section price-section" id="prices">
+      <div class="section-heading">
+        <div>
+          <div class="eyebrow">ПОНЯТНАЯ СТОИМОСТЬ</div>
+          <h2>Цены без сюрпризов<span>.</span></h2>
+        </div>
+        <p>Цены ориентировочные. Итоговую стоимость мастер подтвердит после осмотра.</p>
+      </div>
+
+      <div class="price-list">
+        <div class="price-row">
+          <div class="price-symbol">01</div>
+          <div class="price-name">
+            <h3>Диагностика велосипеда</h3>
+            <p>Проверка основных узлов и рекомендации</p>
+          </div>
+          <strong>от 3 000 ₸</strong>
+          <a href="#booking" aria-label="Записаться на диагностику">↗</a>
+        </div>
+
+        <div class="price-row">
+          <div class="price-symbol">02</div>
+          <div class="price-name">
+            <h3>Настройка тормозов и передач</h3>
+            <p>Регулировка и проверка работы механизмов</p>
+          </div>
+          <strong>от 4 000 ₸</strong>
+          <a href="#booking" aria-label="Записаться на настройку">↗</a>
+        </div>
+
+        <div class="price-row">
+          <div class="price-symbol">03</div>
+          <div class="price-name">
+            <h3>Замена камеры</h3>
+            <p>Работа без учёта стоимости запчастей</p>
+          </div>
+          <strong>от 2 500 ₸</strong>
+          <a href="#booking" aria-label="Записаться на замену камеры">↗</a>
+        </div>
+
+        <div class="price-row">
+          <div class="price-symbol">04</div>
+          <div class="price-name">
+            <h3>Полное техническое обслуживание</h3>
+            <p>Чистка, смазка, регулировки и осмотр</p>
+          </div>
+          <strong>от 12 000 ₸</strong>
+          <a href="#booking" aria-label="Записаться на полное обслуживание">↗</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- О МАСТЕРСКОЙ -->
+    <section class="section why-section">
+      <div class="why-image image-frame">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUlJfwBc5hkGbOy0YOYnknnxH7PGZWQarvHdhoHa8-Pw&s=10"
+             alt="Механик работает в оборудованной веломастерской">
+        <div class="image-placeholder">
+          <span>🛠️</span><small>Добавь фото мастерской</small>
+        </div>
+        <div class="experience-stamp">
+          <strong>5+</strong><span>лет опыта</span>
+        </div>
+      </div>
+
+      <div class="why-copy">
+        <div class="eyebrow">ПОЧЕМУ BIKEFIX</div>
+        <h2>Ремонтируем так, <span>как для себя.</span></h2>
+        <p>
+          Мы объясняем, что действительно нужно сделать, согласовываем
+          стоимость заранее и не меняем детали без твоего согласия.
+        </p>
+
+        <ul class="check-list">
+          <li>
+            <span>✓</span>
+            <div><strong>Без лишних услуг</strong>
+              <small>Только нужный ремонт и понятная смета.</small>
+            </div>
+          </li>
+          <li>
+            <span>✓</span>
+            <div><strong>Аккуратная работа</strong>
+              <small>Инструменты и расходники для велоремонта.</small>
+            </div>
+          </li>
+          <li>
+            <span>✓</span>
+            <div><strong>Объясняем простыми словами</strong>
+              <small>Покажем проблему и расскажем о решении.</small>
+            </div>
+          </li>
+        </ul>
+
+        <a class="button button-primary" href="#contacts">
+          Найти мастерскую <span>↗</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ЭТАПЫ РЕМОНТА -->
+    <section class="section steps-section">
+      <div class="section-heading centered-heading">
+        <div class="eyebrow">ВСЁ ПРОСТО</div>
+        <h2>От заявки до поездки<span>.</span></h2>
+        <p>Четыре понятных шага — и ты снова в пути.</p>
+      </div>
+
+      <div class="steps-grid">
+        <div class="step-card">
+          <span class="step-number">01</span>
+          <div class="step-icon">✆</div>
+          <h3>Оставь заявку</h3>
+          <p>Позвони или напиши нам, опиши проблему.</p>
+        </div>
+        <div class="step-card">
+          <span class="step-number">02</span>
+          <div class="step-icon">⌕</div>
+          <h3>Диагностика</h3>
+          <p>Осмотрим велосипед и согласуем стоимость.</p>
+        </div>
+        <div class="step-card">
+          <span class="step-number">03</span>
+          <div class="step-icon">⚙</div>
+          <h3>Ремонт</h3>
+          <p>Выполним работы и проверим результат.</p>
+        </div>
+        <div class="step-card">
+          <span class="step-number">04</span>
+          <div class="step-icon">↗</div>
+          <h3>В путь!</h3>
+          <p>Забирай велосипед и наслаждайся поездкой.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ОТЗЫВЫ -->
+    <section class="section reviews-section" id="reviews">
+      <div class="section-heading">
+        <div>
+          <div class="eyebrow">ОТЗЫВЫ КЛИЕНТОВ</div>
+          <h2>Нас рекомендуют<span>.</span></h2>
+        </div>
+        <div class="review-rating">
+          <strong>4.9</strong>
+          <span>★★★★★<small>Демонстрационный рейтинг</small></span>
+        </div>
+      </div>
+
+      <div class="review-grid">
+        <article class="review-card">
+          <div class="stars">★★★★★</div>
+          <p>«Быстро нашли причину скрипа, всё объяснили и настроили передачи. Велосипед снова едет отлично!»</p>
+          <div class="review-author">
+            <div class="avatar">АМ</div>
+            <div><strong>Алексей М.</strong><small>Настройка велосипеда</small></div>
+          </div>
+        </article>
+
+        <article class="review-card">
+          <div class="stars">★★★★★</div>
+          <p>«Понравилось, что цену озвучили заранее. Сделали аккуратно и в оговорённый срок.»</p>
+          <div class="review-author">
+            <div class="avatar">ДС</div>
+            <div><strong>Диана С.</strong><small>Техническое обслуживание</small></div>
+          </div>
+        </article>
+
+        <article class="review-card">
+          <div class="stars">★★★★★</div>
+          <p>«Заехал с проколотым колесом, помогли без долгого ожидания. Отличный сервис!»</p>
+          <div class="review-author">
+            <div class="avatar">РК</div>
+            <div><strong>Руслан К.</strong><small>Ремонт колеса</small></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ЗАПИСЬ -->
+    <section class="section booking-section" id="booking">
+      <div class="booking-copy">
+        <div class="eyebrow">ГОТОВ К ПОЕЗДКЕ?</div>
+        <h2>Вернём твоему<br>велосипеду <span>форму.</span></h2>
+        <p>Оставь контакты — мы свяжемся с тобой и подберём время для ремонта.</p>
+        <div class="booking-note">● Обычно отвечаем в рабочее время в течение часа</div>
+      </div>
+
+      <form class="booking-form" id="booking-form">
+        <label for="name">Как тебя зовут?</label>
+        <input id="name" name="name" type="text" placeholder="Твоё имя" required>
+
+        <label for="phone">Номер телефона</label>
+        <input id="phone" name="phone" type="tel" placeholder="+7 (___) ___-__-__" required>
+
+        <label for="service">Что нужно сделать?</label>
+        <select id="service" name="service" required>
+          <option value="">Выбери услугу</option>
+          <option>Диагностика</option>
+          <option>Настройка тормозов и передач</option>
+          <option>Ремонт колеса</option>
+          <option>Полное ТО</option>
+          <option>Другое</option>
+        </select>
+
+        <button class="button button-primary form-submit" type="submit">
+          Отправить заявку <span>↗</span>
+        </button>
+
+        <p class="form-message" id="form-message" role="status">
+          Это демонстрационная форма. Для получения заявок подключи сервис отправки.
+        </p>
+        <small class="privacy-note">
+          Данные используются для связи по заявке.
+        </small>
+      </form>
+    </section>
+  </main>
+
+  <!-- ПОДВАЛ -->
+  <footer class="site-footer" id="contacts">
+    <div class="footer-main">
+      <div class="footer-brand">
+        <a class="logo" href="#home">BIKEFIX<span>.</span></a>
+        <p>Сервис, который возвращает<br>радость каждой поездки.</p>
+        <div class="social-links">
+          <a href="#" aria-label="Instagram">ig</a>
+          <a href="#" aria-label="Telegram">tg</a>
+          <a href="https://wa.me/77001234567" aria-label="WhatsApp">wa</a>
+        </div>
+      </div>
+
+      <div class="footer-column">
+        <h3>Навигация</h3>
+        <a href="#home">Главная</a>
+        <a href="#services">Услуги</a>
+        <a href="#prices">Цены</a>
+        <a href="#reviews">Отзывы</a>
+      </div>
+
+      <div class="footer-column">
+        <h3>Контакты</h3>
+        <a href="tel:+77001234567">+7 (700) 123-45-67</a>
+        <a href="mailto:hello@bikefix-demo.kz">hello@bikefix-demo.kz</a>
+        <span>г. Алматы, ул. Велосипедная, 15</span>
+        <span>Пн–Сб: 10:00–19:00</span>
+      </div>
+
+      <div class="footer-map">
+        <div class="map-placeholder">
+          <span>⌖</span>
+          <strong>Мы на карте</strong>
+          <small>Добавь карту или фото входа</small>
+        </div>
+        <a class="text-link" href="https://maps.google.com/?q=Almaty"
+           target="_blank" rel="noopener">Построить маршрут ↗</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 BIKEFIX. Все права защищены.</span>
+      <span>Макет сайта · Контакты и адрес вымышленные</span>
+      <a href="#home">Наверх ↑</a>
+    </div>
+  </footer>
+
+  <script>
+    const menuToggle = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('.main-nav');
+
+    menuToggle.addEventListener('click', () => {
+      const opened = menuToggle.getAttribute('aria-expanded') === 'true';
+
+      menuToggle.setAttribute('aria-expanded', String(!opened));
+      nav.classList.toggle('nav-open', !opened);
+    });
+
+    nav.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        nav.classList.remove('nav-open');
+        menuToggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+
+    document.querySelector('#booking-form').addEventListener('submit', event => {
+      event.preventDefault();
+
+      const message = document.querySelector('#form-message');
+      message.textContent =
+        'Спасибо! Это демонстрационная форма. Подключи отправку заявок, чтобы получать данные.';
+      message.classList.add('visible');
+    });
+  </script>
+</body>
+</html>
